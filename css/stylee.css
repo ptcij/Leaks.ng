@@ -22,23 +22,74 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-image: url(../imgs/MainImageSmalll.png);
-      color: #000;
+      background: url(../imgs/Occuy-Nigeria-Protest.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff;
       padding: 245px 25px;
-      font-family: Ubuntu Condensed, sans-serif;
   }
+
+    .btn-whistleblow { 
+      color: #FFFFFF; 
+      background-color: #008753; 
+      border-color: #008753; 
+    } 
+
+    .btn-whistleblow:hover, 
+    .btn-whistleblow:focus, 
+    .btn-whistleblow:active, 
+    .btn-whistleblow.active, 
+    .open .dropdown-toggle.btn-whistleblow { 
+      color: #FFFFFF; 
+      background-color: #00663F; 
+      border-color: #008753; 
+    } 
+
+    .btn-whistleblow:active, 
+    .btn-whistleblow.active, 
+    .open .dropdown-toggle.btn-whistleblow { 
+      background-image: none; 
+    } 
+
+    .btn-whistleblow.disabled, 
+    .btn-whistleblow[disabled], 
+    fieldset[disabled] .btn-whistleblow, 
+    .btn-whistleblow.disabled:hover, 
+    .btn-whistleblow[disabled]:hover, 
+    fieldset[disabled] .btn-whistleblow:hover, 
+    .btn-whistleblow.disabled:focus, 
+    .btn-whistleblow[disabled]:focus, 
+    fieldset[disabled] .btn-whistleblow:focus, 
+    .btn-whistleblow.disabled:active, 
+    .btn-whistleblow[disabled]:active, 
+    fieldset[disabled] .btn-whistleblow:active, 
+    .btn-whistleblow.disabled.active, 
+    .btn-whistleblow[disabled].active, 
+    fieldset[disabled] .btn-whistleblow.active { 
+      background-color: #008753; 
+      border-color: #008753; 
+    } 
+
+    .btn-whistleblow .badge { 
+      color: #008753; 
+      background-color: #FFFFFF; 
+    }
+
   .container-fluid {
       padding: 60px 50px;
   }
   .bg-grey {
       background-color: #f6f6f6;
   }
+  .bg-green {
+      background-color: #008753;
+  }
   .logo-small {
-      color: gray;
+      color: #008753;
       font-size: 100px;
   }
   .logo {
-      color: gray;
+      color: #008753;
       font-size: 200px;
   }
   .thumbnail {
@@ -79,7 +130,7 @@ body {
       font-style: normal;
   }
   .panel {
-      border: 1px solid gray; 
+      border: 1px solid #008753; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -87,13 +138,13 @@ body {
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid gray;
+      border: 1px solid #008753;
       background-color: #fff !important;
-      color: gray;
+      color: #008753;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: gray !important;
+      background-color: #008753 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -113,7 +164,7 @@ body {
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: gray;
+      background-color: #008753;
       color: #fff;
   }
 #body_div {
@@ -122,7 +173,7 @@ body {
 }
   .navbar {
       margin-bottom: 0;
-      background-color: transparent;
+      background-color: rgba(0,0,0,.5);
       z-index: 9999;
       border: 0px;
       border-bottom-color: black;
@@ -174,7 +225,7 @@ body {
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: gray;
+      color: #008753;
   }
   .slideanim {visibility:hidden;}
   .slide {
