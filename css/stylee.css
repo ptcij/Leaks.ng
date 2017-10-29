@@ -1,6 +1,6 @@
 body {
-  font: normal normal 500 normal 14px/1.8 "Arial", "Helvetica", sans-serif;
   color: #818181;
+  font: normal normal 500 normal 14px/1.8 "Arial", "Helvetica", sans-serif;
 }
 p {
   line-height: 150%;
@@ -8,15 +8,15 @@ p {
 h2 {
   font-size: 24px;
   text-transform: uppercase;
-  color: #303030;
   font-weight: 600;
+  color: #303030;
   margin-bottom: 30px;
 }
 h4 {
   font-size: 19px;
   line-height: 1.375em;
-  color: #303030;
   font-weight: 400;
+  color: #303030;
   margin-bottom: 30px;
 }
 .jumbotron {
