@@ -71,23 +71,8 @@ fieldset[disabled] .btn-whistleblow.active {
 .container-fluid {
   padding: 60px 50px;
 }
-.box1 {
-  width: 500px;
-  margin-left: 100px;
-}
-.box2 {
-  width: 500px;
-  margin-left: 100px;
-  margin-top: 70px;
-}
-.box3 {
-  width: 500px;
-  margin-right: 100px;
-}
-.box4 {
-  width: 500px;
-  margin-right: 100px;
-  margin-top: 50px;
+.box1, .box2, .box3, .box4 {
+  padding-bottom: 70px;
 }
 .bg-grey {
   background-color: #f8f8f8;
