@@ -186,8 +186,10 @@ fieldset[disabled] .btn-whistleblow.active {
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
+.navbar li a {
+  text-transform: uppercase;
+}
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: gray !important;
   color: #008753 !important;
 }
 .navbar-default .navbar-toggle {
